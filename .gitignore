@@ -1,0 +1,61 @@
+# 🔒 Environment files
+.env
+.env.*
+
+# 🧠 Python virtual environments
+venv/
+.venv/
+ENV/
+env/
+build/
+dist/
+
+# 🐍 Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# 🧰 IDE & system junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# 📦 Dependency / packaging
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+
+# 🧪 Test / coverage
+.coverage
+.cache/
+pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+
+# 🧮 Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🧠 Local runtime / output
+*.sqlite3
+*.db
+*.json
+*.csv
+*.xlsx
+*.zip
+*.tar.gz
+
+# 🧰 Node / frontend if any
+node_modules/
+npm-debug.log*
+
+# 🗂️ Ignore compiled binaries
+*.so
+*.dll
+*.exe
